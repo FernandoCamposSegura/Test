@@ -2,21 +2,21 @@ package com.svalero.domain;
 
 import java.util.Objects;
 
-public class Class2 {
+public class Class3 {
     private String s1;
     private String s2;
     private int i1;
     private int i2;
     private float f;
 
-    public Class2() {
+    public Class3() {
     }
 
-    public Class2(String s1) {
+    public Class3(String s1) {
         this.s1 = s1;
     }
 
-    public Class2(String s1, String s2, int i1, int i2, float f) {
+    public Class3(String s1, String s2, int i1, int i2, float f) {
         this.s1 = s1;
         this.s2 = s2;
         this.i1 = i1;
@@ -68,8 +68,8 @@ public class Class2 {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Class2 class2 = (Class2) o;
-        return s1.equals(class2.s1);
+        Class3 class3 = (Class3) o;
+        return s1.equals(class3.s1);
     }
 
     @Override
@@ -79,7 +79,7 @@ public class Class2 {
 
     @Override
     public String toString() {
-        return "Class2{" +
+        return "Class3{" +
                 "s1='" + s1 + '\'' +
                 ", s2='" + s2 + '\'' +
                 ", i1=" + i1 +

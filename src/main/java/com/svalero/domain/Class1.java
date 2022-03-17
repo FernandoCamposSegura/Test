@@ -76,4 +76,15 @@ public class Class1 {
     public int hashCode() {
         return Objects.hash(s1);
     }
+
+    @Override
+    public String toString() {
+        return "Class1{" +
+                "s1='" + s1 + '\'' +
+                ", s2='" + s2 + '\'' +
+                ", i1=" + i1 +
+                ", i2=" + i2 +
+                ", f=" + f +
+                '}';
+    }
 }
